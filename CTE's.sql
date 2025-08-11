@@ -1,5 +1,9 @@
-Use a CTE to calculate avg salary per department
-Then select only those departments where avg > ₹70,000
-Show:
-- department
-- avg_salary
+WITH dept_avg AS (
+    SELECT department,
+           AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+)
+SELECT department, avg_salary
+FROM dept_avg
+WHERE avg_salary > 70000;
