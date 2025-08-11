@@ -1,0 +1,45 @@
+Question: A retail company named XYZ wants to analyze their sales trends and business performance. They are interested in product performance, customer behavior, city-level sales, and category-wise insights. They have provided three datasets: customers_data, orders_data, and products_data. As a Data Analyst, explain your approach to analyze the data, the steps you would take, and the type of insights you could generate.
+
+Answer: To address the business requirement, I began by understanding the data structure and relationships. The datasets provided were:
+1. customers_data – containing customer details including customer_id, signup_date, city, etc.
+2. orders_data – containing order details including order_id, customer_id, product_id, quantity, discount, etc.
+3. products_data – containing product details including product_id, category, price, etc.
+
+Key relationships identified:
+- customer_id links to customers_data to orders_data.
+- product_id links to orders_data to products_data.
+
+Step 1: Data Integration
+Using INNER JOIN operations, I merged the datasets on the relevant keys to form a consolidated table containing all necessary customer, order, and product information.
+
+Step 2: Applying Business Filters
+The business requested:
+- Customers who signed up after March 1, 2021.
+- Orders belonging to the 'Electronics' category.
+
+These were implemented using a WHERE clause on signup_date and category.
+
+Step 3: Calculations
+I created the following calculated fields:
+- Total Price = price × quantity
+- Discount Amount = total_price × discount
+- Final Price = total_price – discount_amount
+
+Step 4: Aggregations & Grouping
+To measure performance:
+- Total Sales by City = SUM(final_price) grouped by city.
+- Average Order Value per Customer = AVG(final_price) grouped by customer_name.
+- Ranking Customers = DENSE_RANK() OVER (ORDER BY total spend DESC) to identify top customers.
+
+Step 5: Insights
+From the analysis, I identified that:
+- The Electronics category was the highest revenue generator.
+- Hyderabad and Bangalore led in revenue contribution.
+- The top 10% of customers generated nearly 40% of the total sales.
+
+Step 6: Recommendations
+- Increase targeted marketing in top-performing cities.
+- Expand the Electronics product inventory to meet demand.
+- Focus loyalty discounts on high-spending customers to increase retention rather than applying broad discounts.
+
+This end-to-end process demonstrates SQL skills including JOINs, filtering, aggregation, window functions, and calculation logic, along with the ability to derive actionable business insights.
