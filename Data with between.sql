@@ -1,0 +1,2 @@
+SELECT * FROM employees
+WHERE hire_date BETWEEN '2018-01-01' AND '2021-12-31';
