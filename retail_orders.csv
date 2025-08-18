@@ -1,0 +1,101 @@
+order_id,customer_id,order_date,order_status,promo_code,shipping_city,shipping_state
+1,47,2023-02-25,Returned,WELCOME10,Hyderabad,Delhi
+2,47,2023-12-14,Placed,FESTIVE15,Bangalore,Karnataka
+3,35,2024-04-04,Paid,,Bangalore,Maharashtra
+4,30,2023-09-13,Placed,,Chennai,Telangana
+5,4,2024-10-29,Cancelled,WELCOME10,Hyderabad,Karnataka
+6,11,2024-02-21,Delivered,,Bangalore,Delhi
+7,4,2023-06-18,Delivered,WELCOME10,Delhi,Maharashtra
+8,30,2023-10-20,Delivered,,Bangalore,Karnataka
+9,19,2023-08-11,Placed,WELCOME10,Mumbai,Telangana
+10,4,2024-08-21,Delivered,FESTIVE15,Hyderabad,Tamil Nadu
+11,6,2023-07-10,Placed,WELCOME10,Bangalore,Delhi
+12,8,2024-08-06,Paid,WELCOME10,Chennai,Telangana
+13,27,2024-11-04,Cancelled,FLASH5,Mumbai,Karnataka
+14,43,2023-11-18,Paid,FLASH5,Delhi,Karnataka
+15,43,2024-10-22,Shipped,,Mumbai,Telangana
+16,1,2024-04-14,Cancelled,WELCOME10,Hyderabad,Tamil Nadu
+17,14,2024-06-02,Shipped,FESTIVE15,Mumbai,Telangana
+18,16,2024-01-14,Shipped,FESTIVE15,Delhi,Tamil Nadu
+19,46,2023-11-06,Cancelled,WELCOME10,Chennai,Maharashtra
+20,43,2023-04-17,Paid,FLASH5,Hyderabad,Telangana
+21,48,2024-07-20,Paid,FLASH5,Mumbai,Tamil Nadu
+22,14,2023-12-18,Paid,FLASH5,Chennai,Delhi
+23,17,2023-02-22,Placed,,Mumbai,Telangana
+24,1,2023-12-08,Paid,FLASH5,Bangalore,Delhi
+25,36,2024-03-13,Cancelled,WELCOME10,Hyderabad,Telangana
+26,45,2023-06-02,Cancelled,WELCOME10,Mumbai,Tamil Nadu
+27,36,2023-06-01,Delivered,FESTIVE15,Hyderabad,Maharashtra
+28,24,2023-02-10,Shipped,FESTIVE15,Bangalore,Telangana
+29,23,2024-07-27,Delivered,FESTIVE15,Bangalore,Karnataka
+30,12,2024-02-27,Placed,FESTIVE15,Mumbai,Delhi
+31,43,2023-09-12,Shipped,FESTIVE15,Hyderabad,Delhi
+32,3,2024-04-26,Paid,FESTIVE15,Delhi,Maharashtra
+33,20,2023-08-22,Paid,WELCOME10,Bangalore,Delhi
+34,22,2023-10-13,Placed,FLASH5,Mumbai,Tamil Nadu
+35,26,2024-11-26,Cancelled,FLASH5,Hyderabad,Telangana
+36,17,2023-07-02,Cancelled,FLASH5,Hyderabad,Telangana
+37,39,2024-03-20,Shipped,FLASH5,Delhi,Tamil Nadu
+38,33,2023-04-29,Delivered,FESTIVE15,Mumbai,Telangana
+39,46,2024-03-22,Placed,FESTIVE15,Mumbai,Delhi
+40,5,2024-11-11,Shipped,FLASH5,Hyderabad,Maharashtra
+41,33,2023-11-13,Returned,,Mumbai,Delhi
+42,45,2023-10-30,Cancelled,FESTIVE15,Bangalore,Delhi
+43,43,2024-01-24,Returned,FESTIVE15,Chennai,Tamil Nadu
+44,20,2024-02-20,Cancelled,WELCOME10,Mumbai,Maharashtra
+45,14,2024-03-16,Cancelled,FLASH5,Delhi,Delhi
+46,29,2024-11-22,Paid,,Bangalore,Telangana
+47,19,2024-06-11,Returned,FLASH5,Hyderabad,Karnataka
+48,44,2023-11-14,Paid,FESTIVE15,Bangalore,Telangana
+49,3,2023-09-08,Delivered,WELCOME10,Delhi,Delhi
+50,41,2024-08-12,Paid,,Delhi,Delhi
+51,16,2023-06-01,Returned,WELCOME10,Hyderabad,Delhi
+52,15,2023-06-30,Returned,,Hyderabad,Tamil Nadu
+53,16,2023-05-05,Delivered,FESTIVE15,Delhi,Tamil Nadu
+54,36,2024-09-01,Shipped,,Chennai,Tamil Nadu
+55,28,2024-07-15,Delivered,FESTIVE15,Delhi,Delhi
+56,17,2023-09-11,Returned,FLASH5,Chennai,Delhi
+57,41,2023-09-02,Shipped,,Hyderabad,Maharashtra
+58,16,2023-10-06,Shipped,FLASH5,Chennai,Telangana
+59,9,2023-06-04,Paid,,Bangalore,Karnataka
+60,5,2024-02-29,Delivered,FLASH5,Chennai,Delhi
+61,27,2023-03-05,Paid,,Delhi,Tamil Nadu
+62,45,2023-01-21,Cancelled,,Delhi,Telangana
+63,23,2023-11-02,Delivered,,Chennai,Tamil Nadu
+64,39,2023-08-14,Delivered,FESTIVE15,Mumbai,Delhi
+65,32,2023-01-30,Delivered,FLASH5,Delhi,Karnataka
+66,30,2023-05-11,Cancelled,WELCOME10,Delhi,Tamil Nadu
+67,37,2024-11-09,Placed,WELCOME10,Delhi,Karnataka
+68,30,2023-07-06,Placed,FLASH5,Delhi,Maharashtra
+69,14,2024-04-10,Shipped,FLASH5,Delhi,Maharashtra
+70,49,2024-03-07,Shipped,WELCOME10,Delhi,Telangana
+71,48,2024-07-06,Placed,FLASH5,Bangalore,Telangana
+72,50,2024-10-29,Placed,WELCOME10,Bangalore,Karnataka
+73,2,2024-09-28,Paid,FESTIVE15,Bangalore,Delhi
+74,43,2023-04-28,Cancelled,FESTIVE15,Delhi,Maharashtra
+75,50,2024-01-13,Paid,WELCOME10,Bangalore,Maharashtra
+76,7,2024-08-15,Placed,FLASH5,Chennai,Delhi
+77,26,2023-07-23,Placed,FESTIVE15,Hyderabad,Maharashtra
+78,44,2024-09-06,Placed,WELCOME10,Mumbai,Tamil Nadu
+79,28,2024-11-08,Shipped,WELCOME10,Chennai,Maharashtra
+80,1,2024-03-06,Delivered,WELCOME10,Delhi,Maharashtra
+81,41,2024-04-15,Returned,FESTIVE15,Delhi,Karnataka
+82,47,2024-06-18,Returned,FLASH5,Chennai,Tamil Nadu
+83,50,2024-05-10,Delivered,,Chennai,Maharashtra
+84,21,2023-09-09,Placed,FLASH5,Delhi,Karnataka
+85,49,2024-04-20,Cancelled,,Mumbai,Telangana
+86,32,2023-11-29,Paid,,Bangalore,Maharashtra
+87,17,2023-12-15,Shipped,FLASH5,Chennai,Telangana
+88,34,2023-07-15,Placed,FESTIVE15,Delhi,Delhi
+89,36,2023-09-04,Returned,,Delhi,Delhi
+90,2,2023-04-06,Shipped,FESTIVE15,Delhi,Karnataka
+91,20,2024-11-10,Cancelled,FLASH5,Delhi,Tamil Nadu
+92,34,2023-12-19,Delivered,FLASH5,Mumbai,Delhi
+93,18,2023-11-10,Shipped,FESTIVE15,Hyderabad,Karnataka
+94,21,2023-05-03,Returned,FESTIVE15,Bangalore,Karnataka
+95,48,2024-05-10,Shipped,FLASH5,Hyderabad,Karnataka
+96,19,2023-08-21,Shipped,FESTIVE15,Mumbai,Telangana
+97,46,2024-06-30,Paid,FLASH5,Hyderabad,Telangana
+98,36,2023-10-27,Returned,FESTIVE15,Delhi,Telangana
+99,1,2024-08-10,Shipped,,Delhi,Delhi
+100,22,2023-07-08,Placed,FLASH5,Delhi,Telangana
