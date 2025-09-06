@@ -1,0 +1,1 @@
+This repository contains my hands-on SQL practice exercises as part of my journey to becoming a Data Analyst. It covers queries from basic to advanced, designed to simulate real-world business problems and demonstrate strong SQL problem-solving skills.
